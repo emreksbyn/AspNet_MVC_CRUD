@@ -1,0 +1,14 @@
+﻿@model AspNet_MVC_CRUD.Models.Entities.Concrete.Product
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<h4>Id: @Model.Id</h4>
+<h4>Name: @Model.Name</h4>
+<h4>Description: @Model.Description</h4>
+<h4>Category: @Model.Category.Name</h4>
+<h4>Status: @Model.Status</h4>
+<h4>Create Date: @Model.CreateDate</h4>
